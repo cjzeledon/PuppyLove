@@ -24,8 +24,15 @@ div {
 
 #site_header {
   background-color: #ff8523;
+  padding: 30px;
 }
 
 #logo {
-  padding: 3px;
+
+}
+
+.main_navigation a{
+  border: solid 1px #FFF;
+  margin-right: 2px;
+  padding: 5px;
 }
