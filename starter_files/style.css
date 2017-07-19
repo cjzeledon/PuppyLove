@@ -19,18 +19,20 @@ body {
 
 div {
   background-color: #FFF;
-  border: solid 1.6px #ffd24a;
 
 }
 
 p {
   font-family: Arial, sans-serif;
-  font-size: 14px;}
+  font-size: 14px;
+  }
 
 #site_header {
   background-color: #ff8523;
   padding: 30px;
 }
+
+/* WARNING: Come back to this logo tag!! */
 
 #logo {
 
@@ -39,6 +41,7 @@ p {
 .main_navigation{
   margin: 10px;
 }
+
 .main_navigation a{
   color: #FFF;
   font-family: Helvetica, Arial, sans-serif;
@@ -50,8 +53,15 @@ p {
   padding: 10px 30px 10px 30px;
 }
 
+a{color: #1fabe5}
+
+section{
+  border-bottom: solid 4px #eee;
+}
+
 #page_content{
   padding: 16px;
+  border: solid 1.6px #ffd24a;
 }
 
 #page_content h2{
@@ -59,8 +69,87 @@ p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
 }
+
 #page_content h3{
   color: #1fabe5;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
+}
+
+#page_content li{
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight:bold;
+  padding: 2px;
+}
+
+/* COME BACK TO TABLE FOR COMPLETION */
+
+table {
+  border: 1px solid black;
+  width:100%;
+
+}
+
+thead > tr > td{
+  background-color: #1fabe5;
+  border: 1px solid #1fabe5;
+  color: white;
+  height:50px;
+  width: 80%;
+}
+
+tbody > tr > td{
+
+}
+
+section > form > div{
+  background-color: #eee;
+}
+
+form{
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 15px;
+  border: 2px solid #eee;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.name {
+  background-color: #ff8523;
+  padding: 20px;
+  border-radius: 5px;
+  border: #eee;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.city_container{
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 15px;
+}
+
+textarea{
+  border: 1px solid #1fabe5;
+  width: 90%;
+}
+
+#submit_button{
+  background-color: #1fabe5;
+  border: 1px solid #1fabe5;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 13px;
+
 }
