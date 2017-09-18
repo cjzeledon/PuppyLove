@@ -20,6 +20,9 @@ Screen shot of the final code are provided for reference. Feel free to compare y
 
 The starter files contains the complete HTML file and a linked style sheet. Work out of this folder, but don't edit the HTML. Your goal is to add styles to the style sheet to match *index.html*.
 
+View the static page at: https://cjzeledon.github.io/PuppyLove/starter_files/
+
+
 
 
 
